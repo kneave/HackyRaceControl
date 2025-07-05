@@ -18,7 +18,6 @@ pygame.mixer.init(48000, -16, 1, 1024)
 lights = serial.Serial('/dev/ttyUSB0')
 lights.write(b'QWERT')
 
-race_countdown_beep = pygame.mixer.Sound("countdown_beep.mp3")
 race_start = pygame.mixer.Sound("mario_kart_race_start.mp3")
 race_end = pygame.mixer.Sound("race_end.mp3")
 first_call = pygame.mixer.Sound("first_call.mp3")
